@@ -14,7 +14,7 @@ services:
     image: frappe/erpnext:v14.41.1
     deploy:
       restart_policy:
-        condition: none
+        condition: always
     entrypoint:
       - bash
       - -c
